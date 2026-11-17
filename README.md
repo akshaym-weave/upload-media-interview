@@ -1,5 +1,13 @@
 # Media upload queue coding round
 
+## Expected behavior demo
+
+[Watch the reference solution demo](https://github.com/akshaym-weave/upload-media-interview/raw/refs/heads/main/docs/reference-demo.mp4)
+
+This short, captioned recording shows the two-upload limit, FIFO promotion, failure
+and retry, queued and active cancellation, and adding media. It demonstrates the expected
+output; the starter project below still contains the exercise bugs.
+
 Read `QUESTIONS.md` before changing code. The application runs, but queue limits, retry,
 cancellation, aggregate progress, and stream cleanup are deliberately incorrect.
 
